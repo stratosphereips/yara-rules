@@ -2,6 +2,11 @@
 Repository of Yara rules created by the Stratosphere team
 
 # Categories
+## Malware
+**Directory:** `malware/`
+
+Everything malware specific. Rules created to identify different malware variants.
+
 ## Protocols
 **Directory:** `protocols/`
 

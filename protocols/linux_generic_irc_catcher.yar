@@ -3,7 +3,7 @@ Looks for IRC samples using yara
 this will only look for executable ELFs
 */
 import "elf"
-rule linux_iot_irc_catcher
+rule linux_generic_irc_catcher
 {
     meta:
     autor= "@_lubiedo"
