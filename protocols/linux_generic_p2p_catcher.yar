@@ -2,11 +2,11 @@ import "elf"
 rule linux_generic_p2p_catcher
 {
   meta:
-    author= "@_lubiedo"
-    date= "2020-04-10"
-    description= "Generic catcher for P2P capable linux ELFs"
-    hash0= "af629ae5a79f715cdbcf9e1faf389a39bd96b887b019984e50798d013f38a466"
-    hash1= "7cd7966d7e472d659b427bedc76dac24cdf598e09defd8d86262efb2bdf55929"
+    author      = "@_lubiedo"
+    date        = "2020-04-10"
+    description = "Generic catcher for P2P capable linux ELFs"
+    hash0       = "af629ae5a79f715cdbcf9e1faf389a39bd96b887b019984e50798d013f38a466"
+    hash1       = "7cd7966d7e472d659b427bedc76dac24cdf598e09defd8d86262efb2bdf55929"
 
   strings:
     /**

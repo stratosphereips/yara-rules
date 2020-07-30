@@ -6,14 +6,14 @@ import "elf"
 rule linux_generic_irc_catcher
 {
     meta:
-    autor= "@_lubiedo"
-    date= "2020-04-07"
-    description= "Find new ELF IRC samples"
-    hash0= "02209779f6e65533b35868464c144ac8c144392cf774c5feb0a66f7af4005268"
+    author      = "@_lubiedo"
+    date        = "2020-04-07"
+    description = "Find new ELF IRC samples"
+    hash0       = "02209779f6e65533b35868464c144ac8c144392cf774c5feb0a66f7af4005268"
 
     strings:
-    $cmd1=cmd1"PING" fullword ascii
-    $cmd2= "PONG" fullword ascii
+    $cmd1 = "PING" fullword ascii
+    $cmd2 = "PONG" fullword ascii
     $cmd3 = "NICK" fullword ascii
     $cmd4 = "JOIN" fullword ascii
     $cmd5 = "PRIVMSG" fullword ascii

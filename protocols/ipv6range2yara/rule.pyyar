@@ -1,0 +1,12 @@
+// automatically generated rule
+import "elf"
+
+rule ipv6_${cr}_range {
+  strings:
+<?py for i,a in enumerate(addrs): ?>
+    $addr${i} = "${a}" ascii
+<?py #endfor ?>
+  condition:
+    elf.type == elf.ET_EXEC
+      and any of ($addr*)
+}
