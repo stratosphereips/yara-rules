@@ -1,7 +1,5 @@
-<center>
 ![](https://avatars3.githubusercontent.com/u/10548938?s=100)
 ![](https://virustotal.github.io/yara/images/logo.png)
-</center>
 
 # Yara Rules for Threat Hunting
 Repository of Yara rules created by the Stratosphere team.
