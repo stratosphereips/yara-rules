@@ -1,0 +1,15 @@
+# IPverse.net IP address block list
+# http://ipverse.net/ipblocks/data/countries/as-ipv6.zone
+#
+# Applied filters:
+#   type: ipv6
+#   iso country code: AS
+#   source: delegated
+#   status: allocated, assigned
+#   mode: aggregated
+#
+# Generated: 2020-07-30 04:29
+# IP blocks: 2
+#
+2403:1e00::/32
+2403:2140::/32

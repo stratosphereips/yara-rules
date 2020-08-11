@@ -15,5 +15,10 @@ Everything malware specific. Rules created to identify different malware variant
 
 Aimed to the recognaizance of network protocols within binaries.
 
+## Tools
+**Directory:** `tools/`
+
+Generic tools for yara rules.
+
 # Contributors
 - Lisandro Ubiedo (lisandro.ubiedo@gmail.com)

@@ -1,0 +1,14 @@
+# IPverse.net IP address block list
+# http://ipverse.net/ipblocks/data/countries/ad-ipv6.zone
+#
+# Applied filters:
+#   type: ipv6
+#   iso country code: AD
+#   source: delegated
+#   status: allocated, assigned
+#   mode: aggregated
+#
+# Generated: 2020-07-30 04:29
+# IP blocks: 1
+#
+2a02:8060::/31

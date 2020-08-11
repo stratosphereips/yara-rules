@@ -1,0 +1,15 @@
+# IPverse.net IP address block list
+# http://ipverse.net/ipblocks/data/countries/ag-ipv6.zone
+#
+# Applied filters:
+#   type: ipv6
+#   iso country code: AG
+#   source: delegated
+#   status: allocated, assigned
+#   mode: aggregated
+#
+# Generated: 2020-07-30 04:29
+# IP blocks: 2
+#
+2605:9e40::/32
+2620:6f:2000::/48
